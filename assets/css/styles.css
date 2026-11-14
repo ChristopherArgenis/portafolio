@@ -75,6 +75,7 @@ img { max-width: 100%; display: block; }
   display: grid; place-items: center; font-size: 2.6rem; font-weight: 700;
 }
 .hero h1 { margin: 0; font-size: 2rem; line-height: 1.2; }
+.hero .fullname { margin: 2px 0 0; font-size: .9rem; color: var(--muted); letter-spacing: .02em; }
 .hero .role { margin: 4px 0 0; font-size: 1.15rem; color: var(--accent); font-weight: 600; }
 .hero .location { margin: 4px 0 0; color: var(--muted); font-size: .95rem; }
 .hero .summary { margin: 12px 0 0; color: var(--muted); max-width: 60ch; }
@@ -88,6 +89,7 @@ img { max-width: 100%; display: block; }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 .btn.primary:hover { background: #1d4ed8; color: #fff; }
 .btn svg { width: 16px; height: 16px; }
+.btn i { font-size: 16px; }
 
 @media (max-width: 600px) {
   .hero { flex-direction: column; text-align: center; padding-top: 32px; }

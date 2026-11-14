@@ -5,8 +5,8 @@ const UI = {
   es: {
     loading: "Cargando…",
     error: "No se pudo cargar data.json. Si abriste el archivo directamente, usa un servidor local (ver README).",
-    nav: { about: "Sobre mí", now: "Ahora", tech: "Tecnologías", experience: "Experiencia", projects: "Proyectos", roadmap: "Planes", training: "Formación", achievements: "Logros", extras: "Extras" },
-    titles: { about: "Sobre mí", now: "En qué estoy ahora", tech: "Tecnologías", experience: "Experiencia", projects: "Proyectos", roadmap: "Planes y metas", training: "Formación", achievements: "Logros y certificados", extras: "Extras" },
+    nav: { about: "Sobre mí", tech: "Tecnologías", experience: "Experiencia", projects: "Proyectos", roadmap: "Planes", training: "Formación", achievements: "Logros", extras: "Extras" },
+    titles: { about: "Sobre mí", tech: "Tecnologías", experience: "Experiencia", projects: "Proyectos", roadmap: "Planes y metas", training: "Formación", achievements: "Logros y certificados", extras: "Extras" },
     status: { all: "Todos", done: "Terminado", "in-progress": "En curso", planned: "Planeado" },
     filters: { all: "Todos", done: "Terminados", "in-progress": "En curso", planned: "Planeados" },
     email: "Email", cv: "CV", demo: "Demo", code: "Código", certificate: "Certificado", more: "Ver más",
@@ -16,8 +16,8 @@ const UI = {
   en: {
     loading: "Loading…",
     error: "Could not load data.json. If you opened the file directly, use a local server (see README).",
-    nav: { about: "About", now: "Now", tech: "Tech", experience: "Experience", projects: "Projects", roadmap: "Roadmap", training: "Education", achievements: "Achievements", extras: "Extras" },
-    titles: { about: "About me", now: "What I'm doing now", tech: "Technologies", experience: "Experience", projects: "Projects", roadmap: "Plans & goals", training: "Education", achievements: "Achievements & certificates", extras: "Extras" },
+    nav: { about: "About", tech: "Tech", experience: "Experience", projects: "Projects", roadmap: "Roadmap", training: "Education", achievements: "Achievements", extras: "Extras" },
+    titles: { about: "About me", tech: "Technologies", experience: "Experience", projects: "Projects", roadmap: "Plans & goals", training: "Education", achievements: "Achievements & certificates", extras: "Extras" },
     status: { all: "All", done: "Done", "in-progress": "In progress", planned: "Planned" },
     filters: { all: "All", done: "Done", "in-progress": "In progress", planned: "Planned" },
     email: "Email", cv: "Résumé", demo: "Demo", code: "Code", certificate: "Certificate", more: "See more",
@@ -31,6 +31,7 @@ const ICONS = {
   file: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg>',
   github: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.1 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>',
   linkedin: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>',
+  youtube: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>',
   link: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>',
 };
 
@@ -77,7 +78,7 @@ function statusChip(status) {
 // ---------- Secciones ----------
 
 function renderHero(p, c) {
-  const initials = t(p.name).split(/\s+/).map((w) => w[0]).slice(0, 2).join("");
+  const initials = t(p.fullName || p.name).split(/\s+/).map((w) => w[0]).slice(0, 2).join("");
   const avatar = p.avatar
     ? `<img class="avatar" src="${esc(p.avatar)}" alt="${esc(t(p.name))}">`
     : `<div class="avatar" aria-hidden="true">${esc(initials)}</div>`;
@@ -87,27 +88,22 @@ function renderHero(p, c) {
   if (cv) links.push(`<a class="btn" ${ext(cv)}>${ICONS.file}${UI[lang].cv}</a>`);
   if (c.github) links.push(`<a class="btn" ${ext(c.github)}>${ICONS.github}GitHub</a>`);
   if (c.linkedin) links.push(`<a class="btn" ${ext(c.linkedin)}>${ICONS.linkedin}LinkedIn</a>`);
-  (c.others || []).forEach((o) => links.push(`<a class="btn" ${ext(o.url)}>${ICONS.link}${esc(t(o.name))}</a>`));
+  (c.others || []).forEach((o) => {
+    const icon = ICONS[o.icon] || (o.icon ? `<i class="${esc(o.icon)}" aria-hidden="true"></i>` : ICONS.link);
+    links.push(`<a class="btn" ${ext(o.url)}>${icon}${esc(t(o.name))}</a>`);
+  });
 
   return `<div class="hero" id="inicio">
     ${avatar}
     <div>
       <h1>${esc(t(p.name))}</h1>
+      ${p.fullName ? `<p class="fullname">${esc(t(p.fullName))}</p>` : ""}
       ${p.role ? `<p class="role">${esc(t(p.role))}</p>` : ""}
       ${p.location ? `<p class="location">📍 ${esc(t(p.location))}</p>` : ""}
       ${p.summary ? `<p class="summary">${esc(t(p.summary))}</p>` : ""}
       <div class="links">${links.join("")}</div>
     </div>
   </div>`;
-}
-
-function renderNow(items) {
-  return section("now", "🚀", `<div class="grid">${items.map((i) => `
-    <article class="card">
-      <h3>${esc(t(i.title))}</h3>
-      ${i.description ? `<p class="desc">${esc(t(i.description))}</p>` : ""}
-      ${chips(i.tags)}
-    </article>`).join("")}</div>`);
 }
 
 function renderTech(items) {
@@ -200,7 +196,6 @@ function render() {
   const add = (id, html) => { parts.push(html); nav.push(id); };
 
   if (d.about) add("about", section("about", "👋", `<p class="prose">${esc(t(d.about))}</p>`));
-  if (has(d.now)) add("now", renderNow(d.now));
   if (has(d.technologies)) add("tech", renderTech(d.technologies));
   if (has(d.experience)) add("experience", section("experience", "💼", `<div class="timeline">${d.experience.map(timelineCard).join("")}</div>`));
   if (has(d.projects)) add("projects", renderProjects(d.projects));
@@ -212,7 +207,7 @@ function render() {
   document.getElementById("app").innerHTML = parts.join("");
   document.getElementById("nav-links").innerHTML = nav.map((id) => `<li><a href="#${id}">${esc(ui.nav[id])}</a></li>`).join("");
   document.getElementById("footer").innerHTML =
-    `<span>© ${new Date().getFullYear()} ${esc(t(d.profile?.name))}</span>` +
+    `<span>© ${new Date().getFullYear()} ${esc(t(d.profile?.fullName || d.profile?.name))}</span>` +
     `<span>${d.meta?.updated ? `${ui.updated}: ${esc(d.meta.updated)} · ` : ""}${ui.made}</span>`;
 
   document.querySelectorAll(".filter").forEach((b) => b.addEventListener("click", () => {

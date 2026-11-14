@@ -26,10 +26,9 @@ Una sección vacía (`[]` o sin la clave) no se muestra.
 
 | Sección | Clave | Campos |
 |---|---|---|
-| Inicio | `profile` | `name`, `avatar`, `role`, `location`, `summary` |
-| Contacto | `contact` | `email`, `cv`, `github`, `linkedin`, `others: [{name, url}]` |
+| Inicio | `profile` | `name`, `fullName`, `avatar`, `role`, `location`, `summary` |
+| Contacto | `contact` | `email`, `cv`, `github`, `linkedin`, `others: [{name, url, icon}]` (`icon`: `youtube` o clase Devicon) |
 | Sobre mí | `about` | texto |
-| Ahora | `now` | `title`, `description`, `tags` |
 | Tecnologías | `technologies` | `name`, `icon` (clase de [Devicon](https://devicon.dev), ej. `devicon-python-plain`) |
 | Experiencia | `experience` | `title`, `subtitle`, `date`, `description`, `technologies`, `url` |
 | Proyectos | `projects` | `title`, `status` (`done` / `in-progress` / `planned`), `date`, `description`, `technologies`, `image`, `url`, `github` |

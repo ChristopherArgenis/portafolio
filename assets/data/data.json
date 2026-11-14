@@ -1,100 +1,204 @@
 {
   "meta": {
-    "title": { "es": "Christopher Argenis · Portafolio", "en": "Christopher Argenis · Portfolio" },
-    "description": { "es": "Portafolio de proyectos y logros.", "en": "Portfolio of projects and achievements." },
+    "title": { "es": "Argenis · Portafolio de Ciencia de Datos", "en": "Argenis · Data Science Portfolio" },
+    "description": {
+      "es": "Portafolio de Christopher Argenis Preciado Silva, estudiante de Ciencia de Datos en UABC.",
+      "en": "Portfolio of Christopher Argenis Preciado Silva, Data Science student at UABC."
+    },
     "updated": "2026-11"
   },
   "profile": {
-    "name": "Christopher Argenis",
-    "avatar": "",
-    "role": { "es": "[Tu título, ej. Estudiante de Ingeniería]", "en": "[Your title, e.g. Engineering Student]" },
-    "location": { "es": "[Ciudad, País]", "en": "[City, Country]" },
-    "summary": {
-      "es": "[Una o dos frases sobre quién eres y qué te apasiona.]",
-      "en": "[One or two sentences about who you are and what drives you.]"
-    }
+    "name": "Argenis",
+    "fullName": "Christopher Argenis Preciado Silva",
+    "avatar": "assets/img/avatar.jpg",
+    "role": { "es": "Estudiante de Ciencia de Datos en UABC", "en": "Data Science Student at UABC" },
+    "location": { "es": "Ensenada, Baja California, México", "en": "Ensenada, Baja California, Mexico" },
+    "summary": { "es": "Determinado.", "en": "Determined." }
   },
   "contact": {
-    "email": "",
+    "email": "christopherargpresil25@gmail.com",
     "cv": "",
     "github": "https://github.com/ChristopherArgenis",
-    "linkedin": "",
-    "others": []
+    "linkedin": "https://www.linkedin.com/in/christopher-argenis-preciado-silva-015157278",
+    "others": [
+      { "name": "Kaggle", "url": "https://www.kaggle.com/christopherargenis", "icon": "devicon-kaggle-plain" },
+      { "name": "YouTube", "url": "https://www.youtube.com/@UniversoCienciaDatos", "icon": "youtube" }
+    ]
   },
   "about": {
-    "es": "[Párrafo más largo sobre ti: tu historia, qué estudias, qué te interesa y qué buscas.]",
-    "en": "[Longer paragraph about you: your story, what you study, your interests and what you're looking for.]"
+    "es": "Soy un joven de veintitantos años, ambicioso e interesado en todo lo que la tecnología puede ofrecerle a la humanidad.",
+    "en": "I'm an ambitious young man in my twenties, interested in everything technology can offer humanity."
   },
-  "now": [
-    {
-      "title": { "es": "[Algo que estás haciendo hoy]", "en": "[Something you're doing today]" },
-      "description": { "es": "[Breve descripción]", "en": "[Short description]" },
-      "tags": ["[Etiqueta]"]
-    }
-  ],
   "technologies": [
     { "name": "Python", "icon": "devicon-python-plain" },
-    { "name": "JavaScript", "icon": "devicon-javascript-plain" },
+    { "name": "Pandas", "icon": "devicon-pandas-plain" },
+    { "name": "Seaborn" },
+    { "name": "Spark", "icon": "devicon-apachespark-original" },
+    { "name": "SQLAlchemy", "icon": "devicon-sqlalchemy-plain" },
+    { "name": "MongoDB", "icon": "devicon-mongodb-plain" },
+    { "name": "ChromaDB" },
+    { "name": "Flask", "icon": "devicon-flask-original" },
+    { "name": "FastAPI", "icon": "devicon-fastapi-plain" },
     { "name": "HTML", "icon": "devicon-html5-plain" },
-    { "name": "CSS", "icon": "devicon-css3-plain" },
-    { "name": "Git", "icon": "devicon-git-plain" }
+    { "name": "CSS", "icon": "devicon-css3-plain" }
   ],
   "experience": [
     {
-      "title": { "es": "[Puesto]", "en": "[Position]" },
-      "subtitle": "[Empresa / Organización]",
-      "date": { "es": "2025 - Actualidad", "en": "2025 - Present" },
-      "description": { "es": "[Qué hiciste y qué lograste]", "en": "[What you did and achieved]" },
-      "technologies": ["Python"]
+      "title": { "es": "Prácticas Profesionales", "en": "Professional Internship" },
+      "subtitle": "CICESE · Centro de Investigación Científica y de Educación Superior de Ensenada",
+      "date": { "es": "2026-2 · En curso", "en": "2026-2 · Ongoing" }
+    },
+    {
+      "title": { "es": "Becario", "en": "Research Fellow (Intern)" },
+      "subtitle": { "es": "Centro de Nanociencias y Nanotecnología (CNyN), UNAM · Unidad Ensenada", "en": "Center for Nanosciences and Nanotechnology (CNyN), UNAM · Ensenada" },
+      "date": "2025",
+      "description": { "es": "Beca de un año.", "en": "One-year fellowship." }
     }
   ],
   "projects": [
     {
-      "title": "Portafolio",
+      "title": "Universo Ciencia de Datos",
+      "status": "in-progress",
+      "description": {
+        "es": "Mi canal de YouTube de divulgación sobre ciencia de datos: videos y shorts creados con código.",
+        "en": "My YouTube channel about data science: videos and shorts built with code."
+      },
+      "technologies": ["TypeScript"],
+      "url": "https://www.youtube.com/@UniversoCienciaDatos",
+      "github": "https://github.com/ChristopherArgenis/videos-yt-ciencia-datos"
+    },
+    {
+      "title": { "es": "Plataforma de Servicios Académicos", "en": "Academic Services Platform" },
+      "status": "in-progress",
+      "description": {
+        "es": "Portal web diseñado para facilitar la investigación y la gestión académica.",
+        "en": "Web portal designed to support research and academic management."
+      },
+      "technologies": ["Python"],
+      "github": "https://github.com/ChristopherArgenis/Plataforma-Servicios-academicos"
+    },
+    {
+      "title": "Buses Ensenada",
+      "status": "in-progress",
+      "description": {
+        "es": "Mapeo de las rutas de autobuses de la ciudad de Ensenada, B.C., México.",
+        "en": "Mapping the bus routes of Ensenada, B.C., Mexico."
+      },
+      "technologies": ["Python"],
+      "github": "https://github.com/ChristopherArgenis/Buses_Ensenada"
+    },
+    {
+      "title": "LSM DB",
+      "status": "in-progress",
+      "description": {
+        "es": "Base de datos de diccionarios de Lengua de Señas Mexicana.",
+        "en": "Database of Mexican Sign Language dictionaries."
+      },
+      "technologies": ["PostgreSQL"],
+      "github": "https://github.com/ChristopherArgenis/LSM_DB"
+    },
+    {
+      "title": "NMAP Cybersecurity",
+      "status": "in-progress",
+      "description": {
+        "es": "Aplicación de escritorio para ejecutar comandos de Nmap desde una interfaz gráfica.",
+        "en": "Desktop app to run Nmap commands from a graphical interface."
+      },
+      "technologies": ["Python"],
+      "github": "https://github.com/ChristopherArgenis/nmap-cybersecurity"
+    },
+    {
+      "title": "SIFT From Scratch",
       "status": "done",
       "date": "2026",
-      "description": { "es": "Este sitio web, publicado con GitHub Pages.", "en": "This website, hosted on GitHub Pages." },
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "image": "",
-      "url": "",
-      "github": "https://github.com/ChristopherArgenis/portafolio"
+      "description": {
+        "es": "Implementación desde cero del algoritmo SIFT de visión por computadora.",
+        "en": "From-scratch implementation of the SIFT computer vision algorithm."
+      },
+      "technologies": ["Python"],
+      "github": "https://github.com/ChristopherArgenis/SIFT_From_Scratch"
     },
     {
-      "title": "[Proyecto en curso]",
-      "status": "in-progress",
-      "description": { "es": "[Descripción]", "en": "[Description]" },
-      "technologies": ["Python"]
+      "title": "Network Monitor",
+      "status": "done",
+      "date": "2026",
+      "description": { "es": "Monitor de red.", "en": "Network monitor." },
+      "technologies": ["Python"],
+      "github": "https://github.com/ChristopherArgenis/network-monitor"
     },
     {
-      "title": "[Proyecto planeado]",
-      "status": "planned",
-      "description": { "es": "[Descripción]", "en": "[Description]" }
+      "title": "Student Performance",
+      "status": "done",
+      "date": "2025",
+      "description": {
+        "es": "Proyecto final de Análisis de Regresión y Correlación sobre el rendimiento de estudiantes.",
+        "en": "Final project for Regression and Correlation Analysis on student performance."
+      },
+      "technologies": ["Python", "Jupyter"],
+      "github": "https://github.com/ChristopherArgenis/Student_Performance"
+    },
+    {
+      "title": "FutQuery",
+      "status": "done",
+      "date": "2025",
+      "description": { "es": "Consultas sobre datos de fútbol.", "en": "Queries over football data." },
+      "technologies": ["Python"],
+      "github": "https://github.com/ChristopherArgenis/FutQuery"
+    },
+    {
+      "title": "Project FIFA",
+      "status": "done",
+      "date": "2025",
+      "description": { "es": "Análisis de datos de FIFA.", "en": "FIFA data analysis." },
+      "technologies": ["Python"],
+      "github": "https://github.com/ChristopherArgenis/Project_FIFA"
+    },
+    {
+      "title": "Music Player Search",
+      "status": "done",
+      "date": "2024",
+      "description": {
+        "es": "Programa para buscar música a partir de distintos filtros.",
+        "en": "Program to search music using different filters."
+      },
+      "technologies": ["Python"],
+      "github": "https://github.com/ChristopherArgenis/MusicPlayerSearch"
     }
   ],
   "roadmap": [
     {
-      "title": { "es": "[Meta a futuro]", "en": "[Future goal]" },
+      "title": { "es": "Graduarme de la Licenciatura en Ciencia de Datos", "en": "Graduate with a B.S. in Data Science" },
       "date": "2027",
-      "description": { "es": "[Por qué y cómo]", "en": "[Why and how]" },
+      "done": false
+    },
+    {
+      "title": { "es": "Posgrado o trabajo como Científico de Datos", "en": "Graduate school or a Data Scientist role" },
+      "description": {
+        "es": "El siguiente paso después de graduarme: seguir formándome en un posgrado o empezar a trabajar como Científico de Datos.",
+        "en": "The next step after graduating: further studies in a graduate program or starting work as a Data Scientist."
+      },
       "done": false
     }
   ],
   "training": [
     {
-      "title": { "es": "[Carrera / Curso]", "en": "[Degree / Course]" },
-      "subtitle": "[Institución]",
-      "date": "2023 - 2027",
-      "description": { "es": "[Opcional]", "en": "[Optional]" },
-      "certificate": ""
+      "title": { "es": "Licenciatura en Ciencia de Datos", "en": "B.S. in Data Science" },
+      "subtitle": { "es": "Universidad Autónoma de Baja California (UABC)", "en": "Autonomous University of Baja California (UABC)" },
+      "date": { "es": "7º semestre · En curso", "en": "7th semester · Ongoing" }
     }
   ],
   "achievements": [
     {
-      "title": { "es": "[Logro o certificado]", "en": "[Achievement or certificate]" },
-      "issuer": "[Quién lo otorga]",
-      "date": "2026",
-      "description": { "es": "[Breve descripción]", "en": "[Short description]" },
-      "url": ""
+      "title": "NASA Space Apps Challenge",
+      "issuer": { "es": "Hackatón · Sede Tijuana", "en": "Hackathon · Tijuana" },
+      "date": "2024",
+      "description": { "es": "Participante.", "en": "Participant." }
+    },
+    {
+      "title": { "es": "Semana de Ciencias", "en": "Science Week" },
+      "issuer": "UABC",
+      "date": "2024 · 2025 · 2026",
+      "description": { "es": "Participé con proyectos tres años consecutivos.", "en": "Presented projects three years in a row." }
     }
   ],
   "extras": []
