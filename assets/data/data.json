@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": { "es": "Christopher Argenis · Portafolio", "en": "Christopher Argenis · Portfolio" },
+    "description": { "es": "Portafolio de proyectos y logros.", "en": "Portfolio of projects and achievements." },
+    "updated": "2026-11"
+  },
+  "profile": {
+    "name": "Christopher Argenis",
+    "avatar": "",
+    "role": { "es": "[Tu título, ej. Estudiante de Ingeniería]", "en": "[Your title, e.g. Engineering Student]" },
+    "location": { "es": "[Ciudad, País]", "en": "[City, Country]" },
+    "summary": {
+      "es": "[Una o dos frases sobre quién eres y qué te apasiona.]",
+      "en": "[One or two sentences about who you are and what drives you.]"
+    }
+  },
+  "contact": {
+    "email": "",
+    "cv": "",
+    "github": "https://github.com/ChristopherArgenis",
+    "linkedin": "",
+    "others": []
+  },
+  "about": {
+    "es": "[Párrafo más largo sobre ti: tu historia, qué estudias, qué te interesa y qué buscas.]",
+    "en": "[Longer paragraph about you: your story, what you study, your interests and what you're looking for.]"
+  },
+  "now": [
+    {
+      "title": { "es": "[Algo que estás haciendo hoy]", "en": "[Something you're doing today]" },
+      "description": { "es": "[Breve descripción]", "en": "[Short description]" },
+      "tags": ["[Etiqueta]"]
+    }
+  ],
+  "technologies": [
+    { "name": "Python", "icon": "devicon-python-plain" },
+    { "name": "JavaScript", "icon": "devicon-javascript-plain" },
+    { "name": "HTML", "icon": "devicon-html5-plain" },
+    { "name": "CSS", "icon": "devicon-css3-plain" },
+    { "name": "Git", "icon": "devicon-git-plain" }
+  ],
+  "experience": [
+    {
+      "title": { "es": "[Puesto]", "en": "[Position]" },
+      "subtitle": "[Empresa / Organización]",
+      "date": { "es": "2025 - Actualidad", "en": "2025 - Present" },
+      "description": { "es": "[Qué hiciste y qué lograste]", "en": "[What you did and achieved]" },
+      "technologies": ["Python"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Portafolio",
+      "status": "done",
+      "date": "2026",
+      "description": { "es": "Este sitio web, publicado con GitHub Pages.", "en": "This website, hosted on GitHub Pages." },
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image": "",
+      "url": "",
+      "github": "https://github.com/ChristopherArgenis/portafolio"
+    },
+    {
+      "title": "[Proyecto en curso]",
+      "status": "in-progress",
+      "description": { "es": "[Descripción]", "en": "[Description]" },
+      "technologies": ["Python"]
+    },
+    {
+      "title": "[Proyecto planeado]",
+      "status": "planned",
+      "description": { "es": "[Descripción]", "en": "[Description]" }
+    }
+  ],
+  "roadmap": [
+    {
+      "title": { "es": "[Meta a futuro]", "en": "[Future goal]" },
+      "date": "2027",
+      "description": { "es": "[Por qué y cómo]", "en": "[Why and how]" },
+      "done": false
+    }
+  ],
+  "training": [
+    {
+      "title": { "es": "[Carrera / Curso]", "en": "[Degree / Course]" },
+      "subtitle": "[Institución]",
+      "date": "2023 - 2027",
+      "description": { "es": "[Opcional]", "en": "[Optional]" },
+      "certificate": ""
+    }
+  ],
+  "achievements": [
+    {
+      "title": { "es": "[Logro o certificado]", "en": "[Achievement or certificate]" },
+      "issuer": "[Quién lo otorga]",
+      "date": "2026",
+      "description": { "es": "[Breve descripción]", "en": "[Short description]" },
+      "url": ""
+    }
+  ],
+  "extras": []
+}
