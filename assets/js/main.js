@@ -5,32 +5,40 @@
 const UI = {
   es: {
     error: "No se pudo cargar data.json. Si abriste el archivo directamente, usa un servidor local (ver README).",
-    home: "Inicio",
-    nav: { about: "Sobre mí", tech: "Tecnologías", experience: "Experiencia", projects: "Proyectos", roadmap: "Planes", training: "Formación", achievements: "Logros", extras: "Extras" },
-    titles: { about: "Sobre mí", tech: "Tecnologías", experience: "Experiencia", projects: "Proyectos", featured: "Proyectos destacados", roadmap: "Planes y metas", training: "Formación", achievements: "Logros y certificados", extras: "Extras" },
+    nav: { home: "Inicio", about: "Sobre mí", projects: "Proyectos", contact: "Contacto" },
+    titles: { about: "Sobre mí", tech: "Tecnologías", experience: "Experiencia", projects: "Proyectos", featured: "Proyectos destacados", roadmap: "Planes y metas", training: "Formación", achievements: "Logros", extras: "Extras" },
+    hero: { about: "Sobre mí", aboutLink: "Conoce más", work: "Mi trabajo", workLink: "Ver portafolio", follow: "Sígueme", scroll: "Bajar al contenido" },
+    work: (n) => `${n} proyectos de ciencia de datos, visión por computadora, bases de datos y desarrollo web: los que ya terminé y los que estoy construyendo.`,
+    facts: { study: "Estudio", base: "Base", now: "Ahora", goal: "Meta" },
     status: { done: "Terminado", "in-progress": "En curso", planned: "Planeado" },
     filters: { all: "Todos", done: "Terminados", "in-progress": "En curso", planned: "Planeados" },
+    projectsEyebrow: "Portafolio",
     projectsIntro: "Lo que he construido y lo que estoy construyendo: ciencia de datos, visión por computadora, bases de datos y desarrollo web.",
     allProjects: "Ver todos los proyectos",
-    details: "Ver proyecto", back: "Todos los proyectos", notFound: "No encontré ese proyecto.",
-    highlights: "Puntos clave", context: "Contexto", year: "Año", statusLabel: "Estado",
+    details: "Ver proyecto", back: "← Todos los proyectos", notFound: "No encontré ese proyecto.",
+    highlights: "Puntos clave", context: "Contexto", year: "Año", statusLabel: "Estado", tech: "Tecnologías",
     prev: "Anterior", next: "Siguiente",
+    cta: { eyebrow: "Contacto", title: "¿Trabajamos juntos?", text: "Busco oportunidades para crecer como Científico de Datos. Si tienes un proyecto, una vacante o una idea, escríbeme.", button: "Escríbeme" },
     email: "Email", cv: "CV", demo: "Demo", code: "Código", certificate: "Certificado", more: "Ver más",
     updated: "Actualizado", made: "Hecho con HTML, CSS y JS · Publicado en GitHub Pages",
     switchTo: "EN",
   },
   en: {
     error: "Could not load data.json. If you opened the file directly, use a local server (see README).",
-    home: "Home",
-    nav: { about: "About", tech: "Tech", experience: "Experience", projects: "Projects", roadmap: "Roadmap", training: "Education", achievements: "Achievements", extras: "Extras" },
-    titles: { about: "About me", tech: "Technologies", experience: "Experience", projects: "Projects", featured: "Featured projects", roadmap: "Plans & goals", training: "Education", achievements: "Achievements & certificates", extras: "Extras" },
+    nav: { home: "Home", about: "About", projects: "Projects", contact: "Contact" },
+    titles: { about: "About me", tech: "Technologies", experience: "Experience", projects: "Projects", featured: "Featured projects", roadmap: "Plans & goals", training: "Education", achievements: "Achievements", extras: "Extras" },
+    hero: { about: "About me", aboutLink: "Learn more", work: "My work", workLink: "Browse portfolio", follow: "Follow me", scroll: "Scroll to content" },
+    work: (n) => `${n} projects in data science, computer vision, databases and web development: the ones I've finished and the ones I'm building.`,
+    facts: { study: "Studying", base: "Based in", now: "Now", goal: "Goal" },
     status: { done: "Done", "in-progress": "In progress", planned: "Planned" },
     filters: { all: "All", done: "Done", "in-progress": "In progress", planned: "Planned" },
+    projectsEyebrow: "Portfolio",
     projectsIntro: "What I've built and what I'm building: data science, computer vision, databases and web development.",
     allProjects: "See all projects",
-    details: "View project", back: "All projects", notFound: "Project not found.",
-    highlights: "Highlights", context: "Context", year: "Year", statusLabel: "Status",
+    details: "View project", back: "← All projects", notFound: "Project not found.",
+    highlights: "Highlights", context: "Context", year: "Year", statusLabel: "Status", tech: "Technologies",
     prev: "Previous", next: "Next",
+    cta: { eyebrow: "Contact", title: "Let's work together?", text: "I'm looking for opportunities to grow as a Data Scientist. If you have a project, a position or an idea, drop me a line.", button: "Email me" },
     email: "Email", cv: "Résumé", demo: "Demo", code: "Code", certificate: "Certificate", more: "See more",
     updated: "Updated", made: "Built with HTML, CSS & JS · Hosted on GitHub Pages",
     switchTo: "ES",
@@ -44,6 +52,7 @@ const ICONS = {
   linkedin: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>',
   youtube: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>',
   link: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>',
+  down: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>',
 };
 
 const PAGE = document.body.dataset.page || "home";
@@ -71,6 +80,7 @@ function esc(s) {
 const has = (arr) => Array.isArray(arr) && arr.length > 0;
 const ext = (url) => `href="${esc(url)}" target="_blank" rel="noopener"`;
 const projectUrl = (p) => `proyecto.html?id=${encodeURIComponent(p.id)}`;
+const pad = (n) => String(n).padStart(2, "0");
 
 function chips(list) {
   if (!has(list)) return "";
@@ -81,9 +91,6 @@ function statusChip(status) {
   return label ? `<span class="chip status ${status}">${esc(label)}</span>` : "";
 }
 function dateEl(d) { return d ? `<span class="date">${esc(t(d))}</span>` : ""; }
-function section(id, inner, head) {
-  return `<section id="${id}">${head || `<h2>${esc(UI[lang].titles[id])}</h2>`}${inner}</section>`;
-}
 function cover(p, big) {
   const inner = p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy">` : `<span class="emoji" aria-hidden="true">${esc(p.emoji || "📁")}</span>`;
   return `<div class="cover${big ? " big" : ""}">${inner}</div>`;
@@ -96,42 +103,90 @@ function projectLinks(p, withDetail) {
   return out.length ? `<div class="actions">${out.join("")}</div>` : "";
 }
 
+// Lista de redes: [{label, url, icon(html)}]
+function socials(c) {
+  const out = [];
+  if (c.github) out.push({ label: "GitHub", url: c.github, icon: ICONS.github });
+  if (c.linkedin) out.push({ label: "LinkedIn", url: c.linkedin, icon: ICONS.linkedin });
+  (c.others || []).forEach((o) => out.push({
+    label: t(o.name), url: o.url,
+    icon: ICONS[o.icon] || (o.icon ? `<i class="${esc(o.icon)}" aria-hidden="true"></i>` : ICONS.link),
+  }));
+  if (c.email) out.push({ label: "Email", url: `mailto:${c.email}`, icon: ICONS.mail, mail: true });
+  return out;
+}
+
 // ---------- Inicio ----------
 
-function renderProfile(p, c) {
-  const ui = UI[lang];
-  const initials = t(p.fullName || p.name).split(/\s+/).map((w) => w[0]).slice(0, 2).join("");
-  const avatar = p.avatar
-    ? `<img class="avatar" src="${esc(p.avatar)}" alt="${esc(t(p.fullName || p.name))}">`
-    : `<div class="avatar" aria-hidden="true">${esc(initials)}</div>`;
-  const links = [];
-  if (c.email) links.push(`<a class="btn primary" href="mailto:${esc(c.email)}">${ICONS.mail}${ui.email}</a>`);
-  const cv = t(c.cv);
-  if (cv) links.push(`<a class="btn" ${ext(cv)}>${ICONS.file}${ui.cv}</a>`);
-  if (c.github) links.push(`<a class="btn" ${ext(c.github)}>${ICONS.github}GitHub</a>`);
-  if (c.linkedin) links.push(`<a class="btn" ${ext(c.linkedin)}>${ICONS.linkedin}LinkedIn</a>`);
-  (c.others || []).forEach((o) => {
-    const icon = ICONS[o.icon] || (o.icon ? `<i class="${esc(o.icon)}" aria-hidden="true"></i>` : ICONS.link);
-    links.push(`<a class="btn" ${ext(o.url)}>${icon}${esc(t(o.name))}</a>`);
-  });
-  return { avatar, links: links.join("") };
+let sectionNo = 0;
+function section(id, title, inner, extra) {
+  sectionNo += 1;
+  return `<section class="section" id="${id}">
+    <div class="section-head">
+      <div><p class="eyebrow"><span class="num">${pad(sectionNo)}</span>— ${esc(UI[lang].titles[id] || "")}</p><h2>${esc(title)}</h2></div>
+      ${extra || ""}
+    </div>
+    ${inner}
+  </section>`;
+}
+
+function renderHero(d) {
+  const ui = UI[lang], p = d.profile || {}, c = d.contact || {};
+  const headline = t(p.headline) || t(p.name);
+  const nameStr = t(p.name);
+  const h1 = esc(headline).replace(esc(nameStr), `<span class="accent">${esc(nameStr)}</span>`);
+  const icons = socials(c).map((s) =>
+    `<a ${s.mail ? `href="${esc(s.url)}"` : ext(s.url)} aria-label="${esc(s.label)}" title="${esc(s.label)}">${s.icon}</a>`).join("");
+  const photo = p.photo || p.avatar;
+  return `<div class="hero">
+    <div class="hero-left">
+      <div class="bar" aria-hidden="true"></div>
+      <h1>${h1}</h1>
+      ${p.fullName ? `<p class="fullname">${esc(t(p.fullName))}</p>` : ""}
+      ${p.intro ? `<p class="intro">${esc(t(p.intro))}</p>` : ""}
+      ${p.summary ? `<p class="motto">${esc(t(p.summary))}</p>` : ""}
+      <a class="scroll-btn" href="#about" aria-label="${esc(ui.hero.scroll)}">${ICONS.down}</a>
+    </div>
+    ${photo ? `<div class="hero-photo"><img src="${esc(photo)}" alt="${esc(t(p.fullName || p.name))}" fetchpriority="high"></div>` : ""}
+    <div class="hero-right">
+      <div class="hero-block">
+        <p class="eyebrow">${esc(ui.hero.about)}</p>
+        <p>${esc(t(d.about))}</p>
+        <a class="arrow-link" href="#about">${esc(ui.hero.aboutLink)} →</a>
+      </div>
+      ${has(d.projects) ? `<div class="hero-block">
+        <p class="eyebrow">${esc(ui.hero.work)}</p>
+        <p>${esc(ui.work(d.projects.length))}</p>
+        <a class="arrow-link" href="proyectos.html">${esc(ui.hero.workLink)} →</a>
+      </div>` : ""}
+      <div class="hero-block">
+        <p class="eyebrow">${esc(ui.hero.follow)}</p>
+        <div class="socials">${icons}</div>
+      </div>
+    </div>
+  </div>`;
 }
 
 function renderHome(d) {
-  const ui = UI[lang];
-  const p = d.profile || {}, c = d.contact || {};
-  const sections = [], nav = [];
-  const add = (id, html) => { sections.push(html); nav.push(id); };
+  const ui = UI[lang], p = d.profile || {};
+  sectionNo = 0;
+  const parts = [renderHero(d)];
 
-  if (d.about) add("about", section("about", `<p class="prose">${esc(t(d.about))}</p>`));
-  if (has(d.technologies)) add("tech", section("tech", `<div class="tech-list">${d.technologies.map((i) =>
-    `<span class="tech">${i.icon ? `<i class="${esc(i.icon)} colored" aria-hidden="true"></i>` : ""}${esc(t(i.name))}</span>`).join("")}</div>`));
-  if (has(d.experience)) add("experience", section("experience", `<div class="timeline">${d.experience.map(timelineCard).join("")}</div>`));
+  // Sobre mí + datos rápidos
+  const facts = [];
+  if (has(d.training)) facts.push([ui.facts.study, `${t(d.training[0].title)} · ${t(d.training[0].subtitle).replace(/^.*\((.*)\)$/, "$1")}`]);
+  if (p.location) facts.push([ui.facts.base, t(p.location)]);
+  if (has(d.experience)) facts.push([ui.facts.now, `${t(d.experience[0].title)} · ${t(d.experience[0].subtitle).split(" · ")[0]}`]);
+  if (has(d.roadmap)) facts.push([ui.facts.goal, t(d.roadmap[d.roadmap.length - 1].title)]);
+  parts.push(section("about", t(p.aboutTitle) || ui.titles.about, `<div class="about-grid">
+      <p class="lead">${esc(t(p.bio || p.intro || d.about))}</p>
+      <div class="facts">${facts.map(([k, v]) => `<div class="fact"><span class="k">${esc(k)}</span><span class="v">${esc(v)}</span></div>`).join("")}</div>
+    </div>`));
+
   if (has(d.projects)) {
     const featured = d.projects.filter((x) => x.featured);
     const list = (featured.length ? featured : d.projects).slice(0, 3);
-    const head = `<div class="section-head"><h2>${esc(ui.titles.featured)}</h2><a class="more" href="proyectos.html">${esc(ui.allProjects)} (${d.projects.length}) →</a></div>`;
-    add("projects", section("projects", `<div class="grid featured">${list.map((x) => `
+    parts.push(section("projects", ui.titles.featured, `<div class="grid">${list.map((x) => `
       <a class="card feature" href="${projectUrl(x)}">
         ${cover(x)}
         <div class="body">
@@ -139,9 +194,21 @@ function renderHome(d) {
           ${x.description ? `<p class="desc">${esc(t(x.description))}</p>` : ""}
           ${chips(x.technologies)}
         </div>
-      </a>`).join("")}</div>`, head));
+      </a>`).join("")}</div>`,
+      `<a class="arrow-link" href="proyectos.html">${esc(ui.allProjects)} (${d.projects.length}) →</a>`));
   }
-  if (has(d.roadmap)) add("roadmap", section("roadmap", `<div class="list roadmap">${d.roadmap.map((i) => `
+  if (has(d.technologies)) parts.push(section("tech", ui.titles.tech, `<div class="tech-list">${d.technologies.map((i) =>
+    `<span class="tech">${i.icon ? `<i class="${esc(i.icon)} colored" aria-hidden="true"></i>` : ""}${esc(t(i.name))}</span>`).join("")}</div>`));
+  if (has(d.experience)) parts.push(section("experience", ui.titles.experience, `<div class="timeline">${d.experience.map(timelineCard).join("")}</div>`));
+  if (has(d.training)) parts.push(section("training", ui.titles.training, `<div class="timeline">${d.training.map(timelineCard).join("")}</div>`));
+  if (has(d.achievements)) parts.push(section("achievements", ui.titles.achievements, `<div class="grid">${d.achievements.map((i) => `
+    <article class="card">
+      <div class="card-head"><h3>${esc(t(i.title))}</h3>${dateEl(i.date)}</div>
+      ${i.issuer ? `<p class="sub">${esc(t(i.issuer))}</p>` : ""}
+      ${i.description ? `<p class="desc">${esc(t(i.description))}</p>` : ""}
+      ${i.url ? `<div class="actions"><a class="btn" ${ext(i.url)}>${ui.certificate} ↗</a></div>` : ""}
+    </article>`).join("")}</div>`));
+  if (has(d.roadmap)) parts.push(section("roadmap", ui.titles.roadmap, `<div class="list roadmap">${d.roadmap.map((i) => `
     <article class="card">
       <span class="check ${i.done ? "on" : ""}" aria-hidden="true">${i.done ? "✓" : ""}</span>
       <div class="grow">
@@ -149,34 +216,18 @@ function renderHome(d) {
         ${i.description ? `<p class="desc">${esc(t(i.description))}</p>` : ""}
       </div>
     </article>`).join("")}</div>`));
-  if (has(d.training)) add("training", section("training", `<div class="timeline">${d.training.map(timelineCard).join("")}</div>`));
-  if (has(d.achievements)) add("achievements", section("achievements", `<div class="grid">${d.achievements.map((i) => `
-    <article class="card">
-      <div class="card-head"><h3>${esc(t(i.title))}</h3>${dateEl(i.date)}</div>
-      ${i.issuer ? `<p class="sub">${esc(t(i.issuer))}</p>` : ""}
-      ${i.description ? `<p class="desc">${esc(t(i.description))}</p>` : ""}
-      ${i.url ? `<div class="actions"><a class="btn" ${ext(i.url)}>${ui.certificate} ↗</a></div>` : ""}
-    </article>`).join("")}</div>`));
-  if (has(d.extras)) add("extras", section("extras", `<div class="grid">${d.extras.map((i) => `
+  if (has(d.extras)) parts.push(section("extras", ui.titles.extras, `<div class="grid">${d.extras.map((i) => `
     <article class="card">
       <h3>${i.url ? `<a ${ext(i.url)}>${esc(t(i.title))} ↗</a>` : esc(t(i.title))}</h3>
       ${i.description ? `<p class="desc">${esc(t(i.description))}</p>` : ""}
     </article>`).join("")}</div>`));
 
-  const { avatar, links } = renderProfile(p, c);
-  return `<div class="layout">
-    <aside class="profile">
-      ${avatar}
-      <h1>${esc(t(p.name))}</h1>
-      ${p.fullName ? `<p class="fullname">${esc(t(p.fullName))}</p>` : ""}
-      ${p.role ? `<p class="role">${esc(t(p.role))}</p>` : ""}
-      ${p.location ? `<p class="location">📍 ${esc(t(p.location))}</p>` : ""}
-      ${p.summary ? `<p class="summary">${esc(t(p.summary))}</p>` : ""}
-      <div class="links">${links}</div>
-      <ul class="side-nav">${nav.map((id) => `<li><a href="${id === "projects" ? "proyectos.html" : "#" + id}">${esc(ui.nav[id])}</a></li>`).join("")}</ul>
-    </aside>
-    <div class="content">${sections.join("")}</div>
-  </div>`;
+  const email = d.contact?.email;
+  if (email) parts.push(`<section class="cta" id="contact">
+      <div><p class="eyebrow">${esc(ui.cta.eyebrow)}</p><h2>${esc(ui.cta.title)}</h2><p>${esc(ui.cta.text)}</p></div>
+      <a class="btn" href="mailto:${esc(email)}">${ICONS.mail}${esc(ui.cta.button)}</a>
+    </section>`);
+  return parts.join("");
 }
 
 function timelineCard(i) {
@@ -200,13 +251,15 @@ function renderProjects(d) {
   const ui = UI[lang];
   const items = d.projects || [];
   const statuses = ["in-progress", "done", "planned"].filter((s) => items.some((i) => i.status === s));
-  const counts = statuses.map((s) => `<span class="count">${items.filter((i) => i.status === s).length} · ${esc(ui.status[s])}</span>`).join("");
+  const counts = statuses.map((s) => `<span class="count">${pad(items.filter((i) => i.status === s).length)} · ${esc(ui.status[s])}</span>`).join("");
   const filters = statuses.length > 1
     ? `<div class="filters" role="group">${["all", ...statuses].map((s) =>
         `<button type="button" class="filter" data-filter="${s}" aria-pressed="${s === projectFilter}">${esc(ui.filters[s])}</button>`).join("")}</div>`
     : "";
   const visible = items.filter((i) => projectFilter === "all" || i.status === projectFilter);
   return `<div class="page-hero">
+      <div class="bar" aria-hidden="true"></div>
+      <p class="eyebrow">${esc(ui.projectsEyebrow)}</p>
       <h1>${esc(ui.titles.projects)}</h1>
       <p>${esc(ui.projectsIntro)}</p>
       <div class="counts">${counts}</div>
@@ -214,9 +267,9 @@ function renderProjects(d) {
     ${filters}
     <div class="project-list">${visible.map((p) => `
       <article class="card project-row" id="${esc(p.id)}">
-        <a href="${projectUrl(p)}" aria-label="${esc(t(p.title))}">${cover(p)}</a>
+        <a class="cover-link" href="${projectUrl(p)}" aria-label="${esc(t(p.title))}">${cover(p)}</a>
         <div>
-          <div class="card-head"><h2><a href="${projectUrl(p)}" style="color:inherit">${esc(t(p.title))}</a></h2>${statusChip(p.status)}</div>
+          <div class="card-head"><h2><a href="${projectUrl(p)}">${esc(t(p.title))}</a></h2>${statusChip(p.status)}</div>
           ${p.context ? `<p class="context">${esc(t(p.context))}</p>` : ""}
           ${p.date ? `<p class="sub">${dateEl(p.date)}</p>` : ""}
           ${p.description ? `<p class="desc">${esc(t(p.description))}</p>` : ""}
@@ -233,7 +286,7 @@ function renderProject(d) {
   const items = d.projects || [];
   const id = new URLSearchParams(location.search).get("id");
   const idx = items.findIndex((p) => p.id === id);
-  if (idx < 0) return `<div class="detail"><a class="back" href="proyectos.html">← ${esc(ui.back)}</a><p class="error">${esc(ui.notFound)}</p></div>`;
+  if (idx < 0) return `<div class="detail"><a class="arrow-link back" href="proyectos.html">${esc(ui.back)}</a><p class="error">${esc(ui.notFound)}</p></div>`;
   const p = items[idx];
   const prev = items[(idx - 1 + items.length) % items.length];
   const next = items[(idx + 1) % items.length];
@@ -242,21 +295,21 @@ function renderProject(d) {
   if (p.date) facts.push([ui.year, t(p.date)]);
   facts.push([ui.statusLabel, ui.status[p.status] || ""]);
   return `<article class="detail">
-    <a class="back" href="proyectos.html">← ${esc(ui.back)}</a>
+    <a class="arrow-link back" href="proyectos.html">${esc(ui.back)}</a>
     ${cover(p, true)}
     <div class="detail-head"><h1>${esc(t(p.title))}</h1>${statusChip(p.status)}</div>
     ${p.description ? `<p class="lead">${esc(t(p.description))}</p>` : ""}
     ${projectLinks(p, false)}
     <div class="detail-grid">
-      ${has(p.highlights) ? `<div class="card"><h3>${esc(ui.highlights)}</h3><ul class="highlights">${p.highlights.map((h) => `<li>${esc(t(h))}</li>`).join("")}</ul></div>` : ""}
-      <div class="card facts">
-        ${facts.map(([k, v]) => `<div><div class="label">${esc(k)}</div><div class="value">${esc(v)}</div></div>`).join("")}
-        ${has(p.technologies) ? `<div><div class="label">${esc(ui.titles.tech)}</div>${chips(p.technologies)}</div>` : ""}
+      ${has(p.highlights) ? `<div class="card"><p class="eyebrow">${esc(ui.highlights)}</p><ul class="highlights">${p.highlights.map((h) => `<li>${esc(t(h))}</li>`).join("")}</ul></div>` : ""}
+      <div class="card kv">
+        ${facts.map(([k, v]) => `<div><div class="k">${esc(k)}</div><div class="v">${esc(v)}</div></div>`).join("")}
+        ${has(p.technologies) ? `<div><div class="k">${esc(ui.tech)}</div>${chips(p.technologies)}</div>` : ""}
       </div>
     </div>
     ${items.length > 1 ? `<nav class="pager">
-      <a class="card" href="${projectUrl(prev)}"><div class="label">← ${esc(ui.prev)}</div><strong>${esc(t(prev.title))}</strong></a>
-      <a class="card next" href="${projectUrl(next)}"><div class="label">${esc(ui.next)} →</div><strong>${esc(t(next.title))}</strong></a>
+      <a class="card" href="${projectUrl(prev)}"><div class="k">← ${esc(ui.prev)}</div><strong>${esc(t(prev.title))}</strong></a>
+      <a class="card next" href="${projectUrl(next)}"><div class="k">${esc(ui.next)} →</div><strong>${esc(t(next.title))}</strong></a>
     </nav>` : ""}
   </article>`;
 }
@@ -268,11 +321,14 @@ function render() {
   const name = t(d.profile?.name);
   document.documentElement.lang = lang;
   document.querySelector('meta[name="description"]').content = t(d.meta?.description);
-  document.getElementById("brand").innerHTML = `${esc(name)}<span>.</span>`;
+  document.getElementById("brand").innerHTML = `<span class="tag" aria-hidden="true">&lt;/&gt;</span>${esc(name)}`;
   document.getElementById("lang-toggle").textContent = ui.switchTo;
+  const cur = (on) => (on ? ' aria-current="page"' : "");
   document.getElementById("nav-links").innerHTML =
-    `<li><a href="index.html"${PAGE === "home" ? ' aria-current="page"' : ""}>${esc(ui.home)}</a></li>` +
-    `<li><a href="proyectos.html"${PAGE !== "home" ? ' aria-current="page"' : ""}>${esc(ui.titles.projects)}</a></li>`;
+    `<li class="opt"><a href="index.html"${cur(PAGE === "home")}>${esc(ui.nav.home)}</a></li>` +
+    `<li class="opt"><a href="index.html#about">${esc(ui.nav.about)}</a></li>` +
+    `<li><a href="proyectos.html"${cur(PAGE !== "home")}>${esc(ui.nav.projects)}</a></li>` +
+    (d.contact?.email ? `<li><a href="index.html#contact">${esc(ui.nav.contact)}</a></li>` : "");
 
   const app = document.getElementById("app");
   if (PAGE === "projects") {
@@ -285,6 +341,7 @@ function render() {
   } else {
     document.title = t(d.meta?.title) || name;
     app.innerHTML = renderHome(d);
+    if (location.hash) document.querySelector(location.hash)?.scrollIntoView();
   }
 
   document.getElementById("footer").innerHTML =
@@ -304,6 +361,9 @@ document.getElementById("lang-toggle").addEventListener("click", () => {
   try { localStorage.setItem("lang", lang); } catch (_) {}
   if (DATA) render();
 });
+
+const topbar = document.querySelector(".topbar");
+window.addEventListener("scroll", () => topbar.classList.toggle("scrolled", window.scrollY > 10), { passive: true });
 
 fetch("assets/data/data.json", { cache: "no-cache" })
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
