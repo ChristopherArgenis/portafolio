@@ -97,7 +97,7 @@ h1, h2, h3 { font-family: var(--display); letter-spacing: -.01em; }
   margin: 0; font-weight: 700; line-height: 1.05; white-space: pre-line;
   font-size: clamp(2.4rem, 7.4vw, 4.6rem); text-shadow: 0 4px 30px rgba(0, 0, 0, .55);
 }
-@media (min-width: 1000px) { .hero h1 { width: 130%; font-size: clamp(3.2rem, 5vw, 4.6rem); } }
+@media (min-width: 1000px) { .hero h1 { font-size: clamp(2.6rem, 4vw, 3.7rem); } }
 .hero h1 .accent { color: var(--blue-light); }
 .hero .fullname { margin: 22px 0 0; font-size: .95rem; color: var(--muted); letter-spacing: .02em; }
 .hero .intro { margin: 8px 0 0; max-width: 44ch; color: rgba(255, 255, 255, .8); font-size: 1.05rem; text-shadow: 0 2px 16px rgba(0, 0, 0, .8); }
@@ -130,13 +130,13 @@ h1, h2, h3 { font-family: var(--display); letter-spacing: -.01em; }
           mask-image: linear-gradient(to bottom, #000 80%, transparent 100%);
 }
 @media (min-width: 1000px) {
-  .hero-photo { position: absolute; left: 41%; width: 36%; bottom: 0; top: 0; margin: 0; }
-  .hero-photo img { height: min(700px, 86%); }
+  .hero-photo { position: absolute; left: 48%; width: 30%; bottom: 0; top: 0; margin: 0; }
+  .hero-photo img { height: min(640px, 82%); }
 }
 
 /* Columna derecha */
 .hero-right { position: relative; z-index: 3; display: grid; padding-bottom: 20px; }
-@media (min-width: 1000px) { .hero-right { grid-column: 2; padding: 40px 0 40px 24%; } }
+@media (min-width: 1000px) { .hero-right { grid-column: 2; padding: 40px 0 40px 34%; } }
 .hero-block { padding: 30px 0; border-bottom: 1px solid var(--line); }
 .hero-block:first-child { padding-top: 0; }
 .hero-block:last-child { border-bottom: none; }
