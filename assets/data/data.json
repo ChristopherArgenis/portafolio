@@ -144,6 +144,24 @@
       "github": "https://github.com/ChristopherArgenis/Buses_Ensenada"
     },
     {
+      "title": "NMAP Cybersecurity",
+      "status": "in-progress",
+      "date": "2026",
+      "description": {
+        "es": "Aplicación de escritorio para ejecutar comandos de Nmap desde una interfaz gráfica.",
+        "en": "Desktop app to run Nmap commands from a graphical interface."
+      },
+      "technologies": [
+        "Python",
+        "Nmap",
+        {
+          "es": "Ciberseguridad",
+          "en": "Cybersecurity"
+        }
+      ],
+      "github": "https://github.com/ChristopherArgenis/nmap-cybersecurity"
+    },
+    {
       "title": "SIFT From Scratch",
       "status": "done",
       "date": "2026",
