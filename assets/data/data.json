@@ -261,13 +261,13 @@
         "en": "Science Week 2025"
       },
       "description": {
-        "es": "¿Cuánto voy a tardar en llegar hoy? Con una simulación Monte Carlo convertí esa duda cotidiana en un problema de probabilidad: miles de viajes simulados para estimar cuánto tarda el autobús desde mi punto de partida hasta mi destino. Lo presenté en la Semana de Ciencias 2025.",
-        "en": "How long will it take me to get there today? With a Monte Carlo simulation I turned that everyday question into a probability problem: thousands of simulated trips to estimate how long the bus takes from my starting point to my destination. I presented it at Science Week 2025."
+        "es": "¿Cuánto voy a tardar en llegar hoy? Con una simulación Monte Carlo convertí esa duda cotidiana en un problema de probabilidad: 10,000 viajes simulados para estimar cuánto tarda el autobús desde mi punto de partida hasta mi destino. Lo presenté en la Semana de Ciencias 2025.",
+        "en": "How long will it take me to get there today? With a Monte Carlo simulation I turned that everyday question into a probability problem: 10,000 simulated trips to estimate how long the bus takes from my starting point to my destination. I presented it at Science Week 2025."
       },
       "highlights": [
         {
-          "es": "Simulación Monte Carlo de tiempos de viaje en autobús",
-          "en": "Monte Carlo simulation of bus travel times"
+          "es": "Simulación Monte Carlo con 10,000 viajes en autobús",
+          "en": "Monte Carlo simulation of 10,000 bus trips"
         },
         {
           "es": "Estimación probabilística en lugar de un único número",
