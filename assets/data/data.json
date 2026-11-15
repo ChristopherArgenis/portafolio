@@ -134,25 +134,29 @@
       "date": "2026",
       "emoji": "🚌",
       "description": {
-        "es": "Mapeo de las rutas de autobuses de Ensenada, B.C., organizadas por estaciones (Roja, Azul, Amarilla, Naranja). Mapa interactivo con Leaflet y OpenStreetMap, con los trazos de cada ruta en GeoJSON.",
-        "en": "Mapping the bus routes of Ensenada, B.C., grouped by station (Red, Blue, Yellow, Orange). Interactive map built with Leaflet and OpenStreetMap, with each route traced in GeoJSON."
+        "es": "Llevo al mapa algo que miles de personas usan a diario y casi nadie puede consultar: las rutas de autobús de Ensenada. Trazo cada recorrido sobre OpenStreetMap y lo organizo por estaciones, para que cualquiera sepa qué camión tomar y por dónde pasa.",
+        "en": "I'm putting on the map something thousands of people use every day but almost nobody can look up: Ensenada's bus routes. I trace each route on OpenStreetMap and organize them by station, so anyone can see which bus to take and where it goes."
       },
       "highlights": [
         {
-          "es": "Rutas agrupadas por estación: Roja, Azul, Amarilla y Naranja",
-          "en": "Routes grouped by station: Red, Blue, Yellow and Orange"
+          "es": "Rutas organizadas por estación: Roja, Azul, Amarilla y Naranja",
+          "en": "Routes organized by station: Red, Blue, Yellow and Orange"
         },
         {
-          "es": "Estación Azul: rutas a El Sauzal, Maneadero y Valle de Guadalupe",
-          "en": "Blue station: routes to El Sauzal, Maneadero and Valle de Guadalupe"
+          "es": "Estación Azul ya mapeada: El Sauzal, Maneadero y Valle de Guadalupe",
+          "en": "Blue station already mapped: El Sauzal, Maneadero and Valle de Guadalupe"
         },
         {
-          "es": "Mapa interactivo con Leaflet y OpenStreetMap",
-          "en": "Interactive map with Leaflet and OpenStreetMap"
+          "es": "Mapa web interactivo con Leaflet y OpenStreetMap",
+          "en": "Interactive web map built with Leaflet and OpenStreetMap"
         },
         {
-          "es": "Trazo de cada ruta guardado en GeoJSON",
-          "en": "Each route trace stored as GeoJSON"
+          "es": "Cada ruta se guarda como GeoJSON: datos abiertos y reutilizables",
+          "en": "Each route is stored as GeoJSON: open, reusable data"
+        },
+        {
+          "es": "Proyecto vivo: sigo capturando las estaciones que faltan",
+          "en": "Ongoing project: I keep mapping the remaining stations"
         }
       ],
       "technologies": [
@@ -175,8 +179,8 @@
         "en": "Cybersecurity"
       },
       "description": {
-        "es": "Aplicación de escritorio para ejecutar comandos de Nmap desde una interfaz gráfica.",
-        "en": "Desktop app to run Nmap commands from a graphical interface."
+        "es": "Nmap es una de las herramientas más potentes de la ciberseguridad, pero vive en la terminal. Esta aplicación de escritorio la pone al alcance de cualquiera: una interfaz gráfica para lanzar escaneos de red sin memorizar comandos ni banderas.",
+        "en": "Nmap is one of the most powerful tools in cybersecurity, but it lives in the terminal. This desktop app puts it within anyone's reach: a graphical interface to run network scans without memorizing commands or flags."
       },
       "highlights": [
         {
@@ -184,8 +188,12 @@
           "en": "Graphical interface to run Nmap commands"
         },
         {
-          "es": "Aplicación de escritorio en Python",
-          "en": "Python desktop application"
+          "es": "Escaneos de red sin depender de la línea de comandos",
+          "en": "Network scanning without relying on the command line"
+        },
+        {
+          "es": "Aplicación de escritorio desarrollada en Python",
+          "en": "Desktop application built in Python"
         }
       ],
       "technologies": [
@@ -210,25 +218,25 @@
         "en": "Course: Pattern Recognition"
       },
       "description": {
-        "es": "App web para la materia de Reconocimiento de Patrones: implementación de SIFT desde cero (sin librerías) para detectar keypoints en una imagen, con controles para ajustar σ₁, σ₂ y el threshold.",
-        "en": "Web app for a Pattern Recognition course: SIFT implemented from scratch (no libraries) to detect keypoints in an image, with controls to tune σ₁, σ₂ and the threshold."
+        "es": "En lugar de llamar a una función de OpenCV, construí el algoritmo SIFT desde cero para entender de verdad cómo una computadora encuentra puntos clave en una imagen. La app web permite ajustar σ₁, σ₂ y el threshold y ver al instante cómo cambian los keypoints detectados.",
+        "en": "Instead of calling an OpenCV function, I built the SIFT algorithm from scratch to truly understand how a computer finds keypoints in an image. The web app lets you tune σ₁, σ₂ and the threshold and instantly see how the detected keypoints change."
       },
       "highlights": [
         {
-          "es": "SIFT implementado desde cero, sin librerías de visión",
-          "en": "SIFT implemented from scratch, without vision libraries"
+          "es": "SIFT implementado desde cero, sin librerías de visión por computadora",
+          "en": "SIFT implemented from scratch, without computer vision libraries"
         },
         {
-          "es": "Detección de keypoints en una imagen",
-          "en": "Keypoint detection on an image"
+          "es": "Detección de keypoints sobre cualquier imagen",
+          "en": "Keypoint detection on any image"
         },
         {
-          "es": "Parámetros ajustables: σ₁, σ₂ y threshold",
-          "en": "Tunable parameters: σ₁, σ₂ and threshold"
+          "es": "Parámetros interactivos: σ₁, σ₂ y threshold",
+          "en": "Interactive parameters: σ₁, σ₂ and threshold"
         },
         {
-          "es": "App funcional desplegada en Streamlit",
-          "en": "Working app deployed on Streamlit"
+          "es": "Desplegado en Streamlit: se puede probar desde el navegador",
+          "en": "Deployed on Streamlit: try it right from your browser"
         }
       ],
       "technologies": [
@@ -253,17 +261,21 @@
         "en": "Science Week 2025"
       },
       "description": {
-        "es": "Simulación Monte Carlo del tiempo que tarda un autobús desde mi punto de inicio hasta mi destino. Presentado en la Semana de Ciencias 2025.",
-        "en": "Monte Carlo simulation of how long a bus takes from my starting point to my destination. Presented at Science Week 2025."
+        "es": "¿Cuánto voy a tardar en llegar hoy? Con una simulación Monte Carlo convertí esa duda cotidiana en un problema de probabilidad: miles de viajes simulados para estimar cuánto tarda el autobús desde mi punto de partida hasta mi destino. Lo presenté en la Semana de Ciencias 2025.",
+        "en": "How long will it take me to get there today? With a Monte Carlo simulation I turned that everyday question into a probability problem: thousands of simulated trips to estimate how long the bus takes from my starting point to my destination. I presented it at Science Week 2025."
       },
       "highlights": [
         {
-          "es": "Simulación Monte Carlo del tiempo de viaje en autobús",
-          "en": "Monte Carlo simulation of bus travel time"
+          "es": "Simulación Monte Carlo de tiempos de viaje en autobús",
+          "en": "Monte Carlo simulation of bus travel times"
         },
         {
-          "es": "Del punto de inicio hasta mi destino",
-          "en": "From my starting point to my destination"
+          "es": "Estimación probabilística en lugar de un único número",
+          "en": "A probabilistic estimate instead of a single number"
+        },
+        {
+          "es": "Un problema cotidiano resuelto con estadística",
+          "en": "An everyday problem solved with statistics"
         },
         {
           "es": "Presentado en la Semana de Ciencias 2025",
@@ -287,8 +299,8 @@
         "en": "Final project · Programming for Data Science"
       },
       "description": {
-        "es": "Dashboard con las métricas, datos y trayectorias de los jugadores de FIFA 2015–2022. Proyecto final de Programación para Ciencia de Datos.",
-        "en": "Dashboard with metrics, stats and career trajectories of FIFA players from 2015–2022. Final project for Programming for Data Science."
+        "es": "Un dashboard para explorar ocho temporadas de FIFA (2015–2022) como lo haría un analista deportivo: métricas, estadísticas y la evolución de cada jugador a lo largo de los años, todo en un solo lugar. Fue mi proyecto final de Programación para Ciencia de Datos.",
+        "en": "A dashboard to explore eight FIFA seasons (2015–2022) the way a sports analyst would: metrics, stats and each player's evolution over the years, all in one place. It was my final project for Programming for Data Science."
       },
       "highlights": [
         {
@@ -296,12 +308,16 @@
           "en": "FIFA player data from 2015 to 2022"
         },
         {
-          "es": "Métricas, datos y trayectorias de cada jugador",
-          "en": "Metrics, stats and career trajectory for each player"
+          "es": "Métricas y estadísticas por jugador",
+          "en": "Metrics and stats for each player"
         },
         {
-          "es": "Dashboard desplegado en Streamlit",
-          "en": "Dashboard deployed on Streamlit"
+          "es": "Trayectorias: cómo evoluciona cada jugador temporada a temporada",
+          "en": "Trajectories: how each player evolves season by season"
+        },
+        {
+          "es": "Dashboard interactivo desplegado en Streamlit",
+          "en": "Interactive dashboard deployed on Streamlit"
         }
       ],
       "technologies": [
@@ -323,20 +339,20 @@
         "en": "Course: Databases"
       },
       "description": {
-        "es": "Base de datos de jugadores de FIFA desde 2015, con su diagrama ER, consultable desde una app web con consultas predefinidas para responder preguntas. Proyecto de la materia de Bases de Datos.",
-        "en": "Database of FIFA players since 2015, with its ER diagram, queryable from a web app with predefined queries that answer specific questions. Databases course project."
+        "es": "La otra cara de los datos de FIFA: diseñé desde el modelo entidad-relación una base de datos con los jugadores desde 2015 y la hice consultable desde una app web. Las consultas ya preparadas responden preguntas concretas sobre los jugadores, sin escribir una línea de SQL.",
+        "en": "The other side of FIFA data: starting from the entity-relationship model, I designed a database of players since 2015 and made it queryable from a web app. Ready-made queries answer specific questions about the players without writing a single line of SQL."
       },
       "highlights": [
+        {
+          "es": "Modelo de datos diseñado con su diagrama entidad-relación",
+          "en": "Data model designed with its entity-relationship diagram"
+        },
         {
           "es": "Base de datos de jugadores de FIFA desde 2015",
           "en": "Database of FIFA players since 2015"
         },
         {
-          "es": "Diseño con su diagrama entidad-relación",
-          "en": "Designed with its entity-relationship diagram"
-        },
-        {
-          "es": "Consultas predefinidas para responder preguntas concretas",
+          "es": "Consultas predefinidas que responden preguntas concretas",
           "en": "Predefined queries that answer specific questions"
         },
         {
@@ -363,13 +379,17 @@
         "en": "Final project · Web Development elective"
       },
       "description": {
-        "es": "App web para solicitar a la universidad recursos para una operación. Proyecto final de la optativa de Desarrollo Web; usa datos sintéticos y no tiene vinculación real con la universidad.",
-        "en": "Web app for requesting resources from the university for an operation. Final project for a Web Development elective; it uses synthetic data and has no real affiliation with the university."
+        "es": "Una aplicación web que digitaliza un trámite: solicitar a la universidad los recursos necesarios para una operación, de principio a fin y en un solo flujo. Fue mi proyecto final de la optativa de Desarrollo Web; funciona con datos sintéticos y no tiene vinculación real con la universidad.",
+        "en": "A web application that digitizes a process: requesting from the university the resources needed for an operation, end to end in a single flow. It was my final project for the Web Development elective; it runs on synthetic data and has no real affiliation with the university."
       },
       "highlights": [
         {
-          "es": "Flujo de solicitud de recursos a la universidad para una operación",
-          "en": "Workflow to request resources from the university for an operation"
+          "es": "Flujo completo de solicitud de recursos",
+          "en": "End-to-end resource request workflow"
+        },
+        {
+          "es": "Un trámite en papel llevado a la web",
+          "en": "A paper process brought to the web"
         },
         {
           "es": "Datos sintéticos; sin vinculación real con la universidad",
@@ -393,21 +413,21 @@
         "en": "Science Week 2024"
       },
       "description": {
-        "es": "Sitio web que, a partir de ciertos filtros, calcula la probabilidad de que te guste algún hit de décadas pasadas. Presentado en la Semana de Ciencias 2024.",
-        "en": "Website that, based on a set of filters, estimates how likely you are to enjoy hit tracks from past decades. Presented at Science Week 2024."
+        "es": "¿Qué clásico te va a gustar? Eliges unos filtros y el sitio calcula la probabilidad de que disfrutes cada hit de décadas pasadas: una forma de descubrir música con un poco de ciencia de datos. Fue mi proyecto para la Semana de Ciencias 2024.",
+        "en": "Which classic will you like? Pick a few filters and the site estimates how likely you are to enjoy each hit from past decades: a way to discover music with a bit of data science. It was my project for Science Week 2024."
       },
       "highlights": [
         {
           "es": "Búsqueda de música a partir de filtros",
-          "en": "Music search based on filters"
+          "en": "Music search driven by filters"
         },
         {
-          "es": "Calcula la probabilidad de que te guste un hit de décadas pasadas",
-          "en": "Estimates how likely you are to enjoy a hit from past decades"
+          "es": "Probabilidad de que te guste cada hit de décadas pasadas",
+          "en": "Likelihood that you'll enjoy each hit from past decades"
         },
         {
-          "es": "Presentado en la Semana de Ciencias 2024",
-          "en": "Presented at Science Week 2024"
+          "es": "Mi primer proyecto en la Semana de Ciencias (2024)",
+          "en": "My first Science Week project (2024)"
         }
       ],
       "technologies": [
