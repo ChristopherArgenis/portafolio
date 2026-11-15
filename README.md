@@ -8,7 +8,9 @@ Sitio estático (HTML + CSS + JS, sin dependencias ni compilación) publicado co
 ## Estructura
 
 ```
-index.html               Página (esqueleto)
+index.html               Inicio (perfil + secciones)
+proyectos.html           Lista de todos los proyectos
+proyecto.html            Detalle de un proyecto (proyecto.html?id=<id>)
 assets/css/styles.css    Estilos
 assets/js/main.js        Lógica: lee data.json y dibuja las secciones; textos de la interfaz ES/EN
 assets/data/data.json    ⭐ TODO el contenido del portafolio
@@ -31,7 +33,7 @@ Una sección vacía (`[]` o sin la clave) no se muestra.
 | Sobre mí | `about` | texto |
 | Tecnologías | `technologies` | `name`, `icon` (clase de [Devicon](https://devicon.dev), ej. `devicon-python-plain`) |
 | Experiencia | `experience` | `title`, `subtitle`, `date`, `description`, `technologies`, `url` |
-| Proyectos | `projects` | `title`, `status` (`done` / `in-progress` / `planned`), `date`, `description`, `technologies`, `image`, `url`, `github` |
+| Proyectos | `projects` | `id` (para la URL), `title`, `status` (`done` / `in-progress` / `planned`), `featured` (true = aparece en el inicio, máx. 3), `date`, `emoji` (portada), `context`, `description`, `highlights` (lista), `technologies`, `image` (reemplaza la portada), `url`, `github` |
 | Planes | `roadmap` | `title`, `date`, `description`, `done` (true/false) |
 | Formación | `training` | `title`, `subtitle`, `date`, `description`, `certificate` |
 | Logros | `achievements` | `title`, `issuer`, `date`, `description`, `url` |
