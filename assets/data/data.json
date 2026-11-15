@@ -127,13 +127,34 @@
   ],
   "projects": [
     {
+      "id": "buses-ensenada",
       "title": "Buses Ensenada",
       "status": "in-progress",
+      "featured": true,
       "date": "2026",
+      "emoji": "🚌",
       "description": {
         "es": "Mapeo de las rutas de autobuses de Ensenada, B.C., organizadas por estaciones (Roja, Azul, Amarilla, Naranja). Mapa interactivo con Leaflet y OpenStreetMap, con los trazos de cada ruta en GeoJSON.",
         "en": "Mapping the bus routes of Ensenada, B.C., grouped by station (Red, Blue, Yellow, Orange). Interactive map built with Leaflet and OpenStreetMap, with each route traced in GeoJSON."
       },
+      "highlights": [
+        {
+          "es": "Rutas agrupadas por estación: Roja, Azul, Amarilla y Naranja",
+          "en": "Routes grouped by station: Red, Blue, Yellow and Orange"
+        },
+        {
+          "es": "Estación Azul: rutas a El Sauzal, Maneadero y Valle de Guadalupe",
+          "en": "Blue station: routes to El Sauzal, Maneadero and Valle de Guadalupe"
+        },
+        {
+          "es": "Mapa interactivo con Leaflet y OpenStreetMap",
+          "en": "Interactive map with Leaflet and OpenStreetMap"
+        },
+        {
+          "es": "Trazo de cada ruta guardado en GeoJSON",
+          "en": "Each route trace stored as GeoJSON"
+        }
+      ],
       "technologies": [
         "Python",
         "JavaScript",
@@ -144,13 +165,29 @@
       "github": "https://github.com/ChristopherArgenis/Buses_Ensenada"
     },
     {
+      "id": "nmap-cybersecurity",
       "title": "NMAP Cybersecurity",
       "status": "in-progress",
       "date": "2026",
+      "emoji": "🛡️",
+      "context": {
+        "es": "Ciberseguridad",
+        "en": "Cybersecurity"
+      },
       "description": {
         "es": "Aplicación de escritorio para ejecutar comandos de Nmap desde una interfaz gráfica.",
         "en": "Desktop app to run Nmap commands from a graphical interface."
       },
+      "highlights": [
+        {
+          "es": "Interfaz gráfica para ejecutar comandos de Nmap",
+          "en": "Graphical interface to run Nmap commands"
+        },
+        {
+          "es": "Aplicación de escritorio en Python",
+          "en": "Python desktop application"
+        }
+      ],
       "technologies": [
         "Python",
         "Nmap",
@@ -162,13 +199,38 @@
       "github": "https://github.com/ChristopherArgenis/nmap-cybersecurity"
     },
     {
+      "id": "sift-from-scratch",
       "title": "SIFT From Scratch",
       "status": "done",
+      "featured": true,
       "date": "2026",
+      "emoji": "🔍",
+      "context": {
+        "es": "Materia: Reconocimiento de Patrones",
+        "en": "Course: Pattern Recognition"
+      },
       "description": {
         "es": "App web para la materia de Reconocimiento de Patrones: implementación de SIFT desde cero (sin librerías) para detectar keypoints en una imagen, con controles para ajustar σ₁, σ₂ y el threshold.",
         "en": "Web app for a Pattern Recognition course: SIFT implemented from scratch (no libraries) to detect keypoints in an image, with controls to tune σ₁, σ₂ and the threshold."
       },
+      "highlights": [
+        {
+          "es": "SIFT implementado desde cero, sin librerías de visión",
+          "en": "SIFT implemented from scratch, without vision libraries"
+        },
+        {
+          "es": "Detección de keypoints en una imagen",
+          "en": "Keypoint detection on an image"
+        },
+        {
+          "es": "Parámetros ajustables: σ₁, σ₂ y threshold",
+          "en": "Tunable parameters: σ₁, σ₂ and threshold"
+        },
+        {
+          "es": "App funcional desplegada en Streamlit",
+          "en": "Working app deployed on Streamlit"
+        }
+      ],
       "technologies": [
         "Python",
         "Streamlit",
@@ -181,26 +243,67 @@
       "github": "https://github.com/ChristopherArgenis/SIFT_From_Scratch"
     },
     {
+      "id": "quantumbus",
       "title": "QuantumBus",
       "status": "done",
       "date": "2025",
+      "emoji": "🎲",
+      "context": {
+        "es": "Semana de Ciencias 2025",
+        "en": "Science Week 2025"
+      },
       "description": {
         "es": "Simulación Monte Carlo del tiempo que tarda un autobús desde mi punto de inicio hasta mi destino. Presentado en la Semana de Ciencias 2025.",
         "en": "Monte Carlo simulation of how long a bus takes from my starting point to my destination. Presented at Science Week 2025."
       },
+      "highlights": [
+        {
+          "es": "Simulación Monte Carlo del tiempo de viaje en autobús",
+          "en": "Monte Carlo simulation of bus travel time"
+        },
+        {
+          "es": "Del punto de inicio hasta mi destino",
+          "en": "From my starting point to my destination"
+        },
+        {
+          "es": "Presentado en la Semana de Ciencias 2025",
+          "en": "Presented at Science Week 2025"
+        }
+      ],
       "technologies": [
         "Python",
         "Monte Carlo"
       ]
     },
     {
+      "id": "football-analytics-hub",
       "title": "Football Analytics Hub",
       "status": "done",
+      "featured": true,
       "date": "2025",
+      "emoji": "⚽",
+      "context": {
+        "es": "Proyecto final · Programación para Ciencia de Datos",
+        "en": "Final project · Programming for Data Science"
+      },
       "description": {
         "es": "Dashboard con las métricas, datos y trayectorias de los jugadores de FIFA 2015–2022. Proyecto final de Programación para Ciencia de Datos.",
         "en": "Dashboard with metrics, stats and career trajectories of FIFA players from 2015–2022. Final project for Programming for Data Science."
       },
+      "highlights": [
+        {
+          "es": "Datos de jugadores de FIFA de 2015 a 2022",
+          "en": "FIFA player data from 2015 to 2022"
+        },
+        {
+          "es": "Métricas, datos y trayectorias de cada jugador",
+          "en": "Metrics, stats and career trajectory for each player"
+        },
+        {
+          "es": "Dashboard desplegado en Streamlit",
+          "en": "Dashboard deployed on Streamlit"
+        }
+      ],
       "technologies": [
         "Python",
         "Pandas",
@@ -210,13 +313,37 @@
       "github": "https://github.com/ChristopherArgenis/Project_FIFA"
     },
     {
+      "id": "futquery",
       "title": "FutQuery",
       "status": "done",
       "date": "2025",
+      "emoji": "🗄️",
+      "context": {
+        "es": "Materia: Bases de Datos",
+        "en": "Course: Databases"
+      },
       "description": {
         "es": "Base de datos de jugadores de FIFA desde 2015, con su diagrama ER, consultable desde una app web con consultas predefinidas para responder preguntas. Proyecto de la materia de Bases de Datos.",
         "en": "Database of FIFA players since 2015, with its ER diagram, queryable from a web app with predefined queries that answer specific questions. Databases course project."
       },
+      "highlights": [
+        {
+          "es": "Base de datos de jugadores de FIFA desde 2015",
+          "en": "Database of FIFA players since 2015"
+        },
+        {
+          "es": "Diseño con su diagrama entidad-relación",
+          "en": "Designed with its entity-relationship diagram"
+        },
+        {
+          "es": "Consultas predefinidas para responder preguntas concretas",
+          "en": "Predefined queries that answer specific questions"
+        },
+        {
+          "es": "Consultable desde una app web en Streamlit",
+          "en": "Queryable from a Streamlit web app"
+        }
+      ],
       "technologies": [
         "Python",
         "SQL",
@@ -226,13 +353,29 @@
       "github": "https://github.com/ChristopherArgenis/FutQuery"
     },
     {
+      "id": "asfem",
       "title": "ASFEM",
       "status": "done",
       "date": "2024",
+      "emoji": "📋",
+      "context": {
+        "es": "Proyecto final · Optativa de Desarrollo Web",
+        "en": "Final project · Web Development elective"
+      },
       "description": {
         "es": "App web para solicitar a la universidad recursos para una operación. Proyecto final de la optativa de Desarrollo Web; usa datos sintéticos y no tiene vinculación real con la universidad.",
         "en": "Web app for requesting resources from the university for an operation. Final project for a Web Development elective; it uses synthetic data and has no real affiliation with the university."
       },
+      "highlights": [
+        {
+          "es": "Flujo de solicitud de recursos a la universidad para una operación",
+          "en": "Workflow to request resources from the university for an operation"
+        },
+        {
+          "es": "Datos sintéticos; sin vinculación real con la universidad",
+          "en": "Synthetic data; no real affiliation with the university"
+        }
+      ],
       "technologies": [
         "HTML",
         "CSS"
@@ -240,13 +383,33 @@
       "github": "https://github.com/ChristopherArgenis/ASFEM"
     },
     {
+      "id": "music-player-search",
       "title": "Music Player Search",
       "status": "done",
       "date": "2024",
+      "emoji": "🎵",
+      "context": {
+        "es": "Semana de Ciencias 2024",
+        "en": "Science Week 2024"
+      },
       "description": {
         "es": "Sitio web que, a partir de ciertos filtros, calcula la probabilidad de que te guste algún hit de décadas pasadas. Presentado en la Semana de Ciencias 2024.",
         "en": "Website that, based on a set of filters, estimates how likely you are to enjoy hit tracks from past decades. Presented at Science Week 2024."
       },
+      "highlights": [
+        {
+          "es": "Búsqueda de música a partir de filtros",
+          "en": "Music search based on filters"
+        },
+        {
+          "es": "Calcula la probabilidad de que te guste un hit de décadas pasadas",
+          "en": "Estimates how likely you are to enjoy a hit from past decades"
+        },
+        {
+          "es": "Presentado en la Semana de Ciencias 2024",
+          "en": "Presented at Science Week 2024"
+        }
+      ],
       "technologies": [
         "Python"
       ],
