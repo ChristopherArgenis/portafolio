@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "title": {
+      "es": "Argenis · Portafolio de Ciencia de Datos",
+      "en": "Argenis · Data Science Portfolio"
+    },
+    "description": {
+      "es": "Portafolio de Christopher Argenis Preciado Silva, estudiante de Ciencia de Datos en UABC.",
+      "en": "Portfolio of Christopher Argenis Preciado Silva, Data Science student at UABC."
+    },
+    "updated": "2026-11"
+  },
+  "profile": {
+    "name": "Argenis",
+    "fullName": "Christopher Argenis Preciado Silva",
+    "avatar": "assets/img/avatar.jpg",
+    "role": {
+      "es": "Estudiante de Ciencia de Datos en UABC",
+      "en": "Data Science Student at UABC"
+    },
+    "location": {
+      "es": "Ensenada, Baja California, México",
+      "en": "Ensenada, Baja California, Mexico"
+    },
+    "summary": {
+      "es": "Determinado.",
+      "en": "Determined."
+    }
+  },
+  "contact": {
+    "email": "christopherargpresil25@gmail.com",
+    "cv": "",
+    "github": "https://github.com/ChristopherArgenis",
+    "linkedin": "https://www.linkedin.com/in/christopher-argenis-preciado-silva-015157278",
+    "others": [
+      {
+        "name": "Kaggle",
+        "url": "https://www.kaggle.com/christopherargenis",
+        "icon": "devicon-kaggle-plain"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@UniversoCienciaDatos",
+        "icon": "youtube"
+      }
+    ]
+  },
+  "about": {
+    "es": "Soy un joven de veintitantos años, ambicioso e interesado en todo lo que la tecnología puede ofrecerle a la humanidad.",
+    "en": "I'm an ambitious young man in my twenties, interested in everything technology can offer humanity."
+  },
+  "technologies": [
+    {
+      "name": "Python",
+      "icon": "devicon-python-plain"
+    },
+    {
+      "name": "Pandas",
+      "icon": "devicon-pandas-plain"
+    },
+    {
+      "name": "Seaborn"
+    },
+    {
+      "name": "Spark",
+      "icon": "devicon-apachespark-original"
+    },
+    {
+      "name": "Streamlit",
+      "icon": "devicon-streamlit-plain"
+    },
+    {
+      "name": "SQLAlchemy",
+      "icon": "devicon-sqlalchemy-plain"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "devicon-mongodb-plain"
+    },
+    {
+      "name": "ChromaDB"
+    },
+    {
+      "name": "Flask",
+      "icon": "devicon-flask-original"
+    },
+    {
+      "name": "FastAPI",
+      "icon": "devicon-fastapi-plain"
+    },
+    {
+      "name": "HTML",
+      "icon": "devicon-html5-plain"
+    },
+    {
+      "name": "CSS",
+      "icon": "devicon-css3-plain"
+    }
+  ],
+  "experience": [
+    {
+      "title": {
+        "es": "Prácticas Profesionales",
+        "en": "Professional Internship"
+      },
+      "subtitle": "CICESE · Centro de Investigación Científica y de Educación Superior de Ensenada",
+      "date": {
+        "es": "2026-2 · En curso",
+        "en": "2026-2 · Ongoing"
+      }
+    },
+    {
+      "title": {
+        "es": "Becario",
+        "en": "Research Fellow (Intern)"
+      },
+      "subtitle": {
+        "es": "Centro de Nanociencias y Nanotecnología (CNyN), UNAM · Unidad Ensenada",
+        "en": "Center for Nanosciences and Nanotechnology (CNyN), UNAM · Ensenada"
+      },
+      "date": "2025",
+      "description": {
+        "es": "Beca de un año.",
+        "en": "One-year fellowship."
+      }
+    }
+  ],
+  "projects": [
+    {
+      "title": "Buses Ensenada",
+      "status": "in-progress",
+      "date": "2026",
+      "description": {
+        "es": "Mapeo de las rutas de autobuses de Ensenada, B.C., organizadas por estaciones (Roja, Azul, Amarilla, Naranja). Mapa interactivo con Leaflet y OpenStreetMap, con los trazos de cada ruta en GeoJSON.",
+        "en": "Mapping the bus routes of Ensenada, B.C., grouped by station (Red, Blue, Yellow, Orange). Interactive map built with Leaflet and OpenStreetMap, with each route traced in GeoJSON."
+      },
+      "technologies": [
+        "Python",
+        "JavaScript",
+        "Leaflet",
+        "OpenStreetMap",
+        "GeoJSON"
+      ],
+      "github": "https://github.com/ChristopherArgenis/Buses_Ensenada"
+    },
+    {
+      "title": "NMAP Cybersecurity",
+      "status": "in-progress",
+      "date": "2026",
+      "description": {
+        "es": "Aplicación de escritorio para ejecutar comandos de Nmap desde una interfaz gráfica.",
+        "en": "Desktop app to run Nmap commands from a graphical interface."
+      },
+      "technologies": [
+        "Python",
+        "Nmap",
+        {
+          "es": "Ciberseguridad",
+          "en": "Cybersecurity"
+        }
+      ],
+      "github": "https://github.com/ChristopherArgenis/nmap-cybersecurity"
+    },
+    {
+      "title": "SIFT From Scratch",
+      "status": "done",
+      "date": "2026",
+      "description": {
+        "es": "App web para la materia de Reconocimiento de Patrones: implementación de SIFT desde cero (sin librerías) para detectar keypoints en una imagen, con controles para ajustar σ₁, σ₂ y el threshold.",
+        "en": "Web app for a Pattern Recognition course: SIFT implemented from scratch (no libraries) to detect keypoints in an image, with controls to tune σ₁, σ₂ and the threshold."
+      },
+      "technologies": [
+        "Python",
+        "Streamlit",
+        {
+          "es": "Visión por computadora",
+          "en": "Computer Vision"
+        }
+      ],
+      "url": "https://sift-from-scratch-argenis.streamlit.app/",
+      "github": "https://github.com/ChristopherArgenis/SIFT_From_Scratch"
+    },
+    {
+      "title": "QuantumBus",
+      "status": "done",
+      "date": "2025",
+      "description": {
+        "es": "Simulación Monte Carlo del tiempo que tarda un autobús desde mi punto de inicio hasta mi destino. Presentado en la Semana de Ciencias 2025.",
+        "en": "Monte Carlo simulation of how long a bus takes from my starting point to my destination. Presented at Science Week 2025."
+      },
+      "technologies": [
+        "Python",
+        "Monte Carlo"
+      ]
+    },
+    {
+      "title": "Football Analytics Hub",
+      "status": "done",
+      "date": "2025",
+      "description": {
+        "es": "Dashboard con las métricas, datos y trayectorias de los jugadores de FIFA 2015–2022. Proyecto final de Programación para Ciencia de Datos.",
+        "en": "Dashboard with metrics, stats and career trajectories of FIFA players from 2015–2022. Final project for Programming for Data Science."
+      },
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Streamlit"
+      ],
+      "url": "https://fifa-players-dataset.streamlit.app/",
+      "github": "https://github.com/ChristopherArgenis/Project_FIFA"
+    },
+    {
+      "title": "FutQuery",
+      "status": "done",
+      "date": "2025",
+      "description": {
+        "es": "Base de datos de jugadores de FIFA desde 2015, con su diagrama ER, consultable desde una app web con consultas predefinidas para responder preguntas. Proyecto de la materia de Bases de Datos.",
+        "en": "Database of FIFA players since 2015, with its ER diagram, queryable from a web app with predefined queries that answer specific questions. Databases course project."
+      },
+      "technologies": [
+        "Python",
+        "SQL",
+        "Streamlit"
+      ],
+      "url": "https://futquery.streamlit.app/",
+      "github": "https://github.com/ChristopherArgenis/FutQuery"
+    },
+    {
+      "title": "ASFEM",
+      "status": "done",
+      "date": "2024",
+      "description": {
+        "es": "App web para solicitar a la universidad recursos para una operación. Proyecto final de la optativa de Desarrollo Web; usa datos sintéticos y no tiene vinculación real con la universidad.",
+        "en": "Web app for requesting resources from the university for an operation. Final project for a Web Development elective; it uses synthetic data and has no real affiliation with the university."
+      },
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "github": "https://github.com/ChristopherArgenis/ASFEM"
+    },
+    {
+      "title": "Music Player Search",
+      "status": "done",
+      "date": "2024",
+      "description": {
+        "es": "Sitio web que, a partir de ciertos filtros, calcula la probabilidad de que te guste algún hit de décadas pasadas. Presentado en la Semana de Ciencias 2024.",
+        "en": "Website that, based on a set of filters, estimates how likely you are to enjoy hit tracks from past decades. Presented at Science Week 2024."
+      },
+      "technologies": [
+        "Python"
+      ],
+      "github": "https://github.com/ChristopherArgenis/MusicPlayerSearch"
+    }
+  ],
+  "roadmap": [
+    {
+      "title": {
+        "es": "Graduarme de la Licenciatura en Ciencia de Datos",
+        "en": "Graduate with a B.S. in Data Science"
+      },
+      "date": "2027",
+      "done": false
+    },
+    {
+      "title": {
+        "es": "Posgrado o trabajo como Científico de Datos",
+        "en": "Graduate school or a Data Scientist role"
+      },
+      "description": {
+        "es": "El siguiente paso después de graduarme: seguir formándome en un posgrado o empezar a trabajar como Científico de Datos.",
+        "en": "The next step after graduating: further studies in a graduate program or starting work as a Data Scientist."
+      },
+      "done": false
+    }
+  ],
+  "training": [
+    {
+      "title": {
+        "es": "Licenciatura en Ciencia de Datos",
+        "en": "B.S. in Data Science"
+      },
+      "subtitle": {
+        "es": "Universidad Autónoma de Baja California (UABC)",
+        "en": "Autonomous University of Baja California (UABC)"
+      },
+      "date": {
+        "es": "7º semestre · En curso",
+        "en": "7th semester · Ongoing"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "title": "NASA Space Apps Challenge",
+      "issuer": {
+        "es": "Hackatón · Sede Tijuana",
+        "en": "Hackathon · Tijuana"
+      },
+      "date": "2024",
+      "description": {
+        "es": "Desarrollamos un mapa que mostraba la contaminación lumínica de la Ciudad de México.",
+        "en": "We built a map showing light pollution in Mexico City."
+      }
+    },
+    {
+      "title": {
+        "es": "Semana de Ciencias",
+        "en": "Science Week"
+      },
+      "issuer": "UABC",
+      "date": "2024 · 2025 · 2026",
+      "description": {
+        "es": "Participé tres años consecutivos. 2024: Music Player Search · 2025: QuantumBus.",
+        "en": "Took part three years in a row. 2024: Music Player Search · 2025: QuantumBus."
+      }
+    }
+  ],
+  "extras": [
+    {
+      "title": "Universo Ciencia de Datos",
+      "url": "https://www.youtube.com/@UniversoCienciaDatos",
+      "description": {
+        "es": "Mi canal de YouTube de divulgación sobre ciencia de datos.",
+        "en": "My YouTube channel about data science."
+      }
+    }
+  ]
+}
