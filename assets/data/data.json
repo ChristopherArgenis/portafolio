@@ -13,7 +13,12 @@
   "profile": {
     "name": "Argenis",
     "fullName": "Christopher Argenis Preciado Silva",
+    "headline": {
+      "es": "Soy Argenis,\nCientífico de Datos",
+      "en": "I'm Argenis,\na Data Scientist"
+    },
     "avatar": "assets/img/avatar.jpg",
+    "photo": "assets/img/argenis.webp",
     "role": {
       "es": "Estudiante de Ciencia de Datos en UABC",
       "en": "Data Science Student at UABC"
@@ -25,6 +30,14 @@
     "summary": {
       "es": "Determinado.",
       "en": "Determined."
+    },
+    "intro": {
+      "es": "Estudiante de 7º semestre de Ciencia de Datos en la UABC, en Ensenada. Convierto datos en mapas, dashboards y modelos que resuelven problemas reales.",
+      "en": "7th-semester Data Science student at UABC in Ensenada. I turn data into maps, dashboards and models that solve real problems."
+    },
+    "bio": {
+      "es": "Estudio Ciencia de Datos en la UABC y he formado parte de dos centros de investigación de Ensenada: el CNyN de la UNAM y CICESE. Me gusta llevar los datos a problemas cotidianos: las rutas de autobús de mi ciudad, cuánto tardo en llegar a mi destino o la trayectoria de un futbolista.",
+      "en": "I study Data Science at UABC and have been part of two research centers in Ensenada: UNAM's CNyN and CICESE. I like taking data to everyday problems: my city's bus routes, how long it takes me to get somewhere, or a footballer's career path."
     }
   },
   "contact": {
