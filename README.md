@@ -48,3 +48,7 @@ python3 -m http.server 8000
 ```
 
 y abre http://localhost:8000
+
+## Al publicar cambios de diseño
+
+Si cambias `styles.css` o `main.js`, sube el número `?v=...` en los tres HTML (`index.html`, `proyectos.html`, `proyecto.html`) para que los navegadores no muestren la versión vieja guardada en caché. Los cambios solo en `data.json` no lo necesitan.
